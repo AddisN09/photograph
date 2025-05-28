@@ -29,10 +29,18 @@ body{
 
 }
 .header nav{
-
+  width:600px;
+  margin-top:20px;
+     
 }
-.header nav li{
-
+.header nav ul{
+display:flex;
+list-style: none;
+    justify-content:space-evenly;
+}
+a{
+color: #fff;
+font-weight:600;
 }
 .section{
    grid-area:section;

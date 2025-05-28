@@ -16,7 +16,8 @@ body{
   "footer";
 }
 .header{
-
+  grid-area:header;
+  border:1px solid black;
 }
 .header h1{
 
@@ -28,7 +29,8 @@ body{
 
 }
 .section1{
-
+   grid-area:section;
+   border:1px solid black;
 }
 .section1 h2{
 
@@ -40,7 +42,8 @@ body{
     
 }
 .footer1{
-
+   grid-area:footer;
+   border:1px solid black;
 }
 .footer1 p{
 

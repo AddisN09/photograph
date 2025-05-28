@@ -13,6 +13,8 @@ body{
   grid-template-areas:
   "header"
   "section"
+  "section"
+  "section"
   "footer";
 }
 .header{

@@ -19,6 +19,7 @@ body{
 }
 .header{
   grid-area:header;
+  background-color:#333;
   border:1px solid black;
   display:flex;
   flex-direction:column;
@@ -26,21 +27,24 @@ body{
   align-items:center;
 }
 .header h1{
-
+  color:#222;
 }
 .header nav{
   width:600px;
-  margin-top:20px;
-     
+  margin-top:20px;     
 }
 .header nav ul{
 display:flex;
 list-style: none;
-    justify-content:space-evenly;
+justify-content:space-evenly;
 }
 a{
 color: #fff;
 font-weight:600;
+text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
 }
 .section{
    grid-area:section;

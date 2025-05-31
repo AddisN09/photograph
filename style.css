@@ -92,4 +92,23 @@ main {
   width:100%;
   background-image:url('./images/back.jpg');
   background-size:cover;
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  grid-template-areas:
+  "photo-one photo-two photot-hree"
+ 
+}
+.photo-container{
+   border:2px solid black;
+   width:600px;
+   height:100vh;
+}
+.photo1{
+  grid-area:photo-one;
+}
+.photo2{
+  grid-area:photo-two;
+}
+.photo3{
+  grid-area:photo-three;
 }

@@ -95,6 +95,10 @@ main {
   font-size: 30px;
 }
 
+.text1 h2{
+  color: #222;
+}
+
 .gallery-conatiner {
   display: grid;
   grid-template-columns: 180px 300px 300px 300px 180px;

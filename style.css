@@ -84,3 +84,12 @@ main {
 .footer p {
   color: #fff;
 }
+
+/* home page ends here */
+
+.gallery-conatiner{
+  height:100vh;
+  width:100%;
+  background-image:url('./images/back.jpg');
+  background-size:cover;
+}

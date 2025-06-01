@@ -6,4 +6,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     const modalimage=document.getElementById('modal-image');
 
     let photos=document.querySelectorAll('photo-item');
+    photos.forEach(photo=>{
+        photo.addEventListener('click',()=>{});
+    });
 });

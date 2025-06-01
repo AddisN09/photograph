@@ -57,15 +57,15 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  background-size: cover;
-  background-image: url('./images/back.jpg');
+  
 }
 
 .section h2 p {
   position: absolute;
   left: 50px;
+  color: #222;
 }
+ 
 
 .section img {
   width: 700px;
@@ -193,7 +193,7 @@ img:hover {
   justify-content:flex-end;
   align-items:center;
  }
-.text-container,h1,h3,p{
+.text-container h1,.text-container h3,.text-container p{
   color:white;
 } 
 

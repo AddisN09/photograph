@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     const motivation=document.getElementById('motivation');
     const modalimage=document.getElementById('modal-image');
 
-    let photos=document.querySelectorAll('photo-item');
+    let photos=document.querySelectorAll('.photo-item');
     photos.forEach(photo=>{
         photo.addEventListener('click',()=>{
             modaltext.textContent=photo.dataset.names;
@@ -14,5 +14,10 @@ document.addEventListener('DOMContentLoaded',()=>{
             modalimage.src=photo.dataset.image;
             modal.style.display='grid';
         });
+    });
+    modal.addEventListener('click',e=>{
+        if(e.target===modal){
+            modal.style.display='none';
+        }
     });
 });

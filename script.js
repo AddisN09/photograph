@@ -7,6 +7,12 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     let photos=document.querySelectorAll('photo-item');
     photos.forEach(photo=>{
-        photo.addEventListener('click',()=>{});
+        photo.addEventListener('click',()=>{
+            modaltext.textContent=photo.dataset.names;
+            modaldate.textContent=photo.dataset.date;
+            motivation.textContent=photo.dataset.motivotion;
+            modalimage.src=photo.dataset.image;
+            modal.style.display='grid';
+        });
     });
 });

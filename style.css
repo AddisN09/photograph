@@ -168,11 +168,13 @@ img:hover {
 .contact-container{
    background-color: white;
   width:500px;
-  height:auto;
+  height:350px;
   display:flex;
   flex-direction:column;
   align-items:center;
   margin:60px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius:10px;
 }
 .contact-container h3{
   margin:30px auto;

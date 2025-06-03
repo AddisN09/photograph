@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded',()=>{
     const modaldate=document.getElementById('date-of-image');
     const motivation=document.getElementById('motivation');
     const modalimage=document.getElementById('modal-image');
-
-    let photos=document.querySelectorAll('.photo-item');
+  if(modal){
+     let photos=document.querySelectorAll('.photo-item');
     photos.forEach(photo=>{
         photo.addEventListener('click',()=>{
             modaltext.textContent=photo.dataset.names;
@@ -20,4 +20,20 @@ document.addEventListener('DOMContentLoaded',()=>{
             modal.style.display='none';
         }
     });
+
+  }
+
+const form=document.getElementsByClassName('form-container')[0];
+const text=document.getElementById('popuptext');
+
+
+if(form){
+form.addEventListener('submit',e=>{
+    e.preventDefault();
+    text.textContent="Thank you for your message! I'll get back to you soon.";
+    form.reset();
+});
+}
+
+
 });

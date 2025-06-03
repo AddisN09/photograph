@@ -203,6 +203,11 @@ img:hover {
 #but:hover{
   background-color:rgb(137, 135, 135);
 }
+#popuptext{
+  margin:30px auto;
+  font-size:20px;
+  
+}
 /*
 contact page ends here */
 
